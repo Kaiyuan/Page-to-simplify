@@ -1,0 +1,12 @@
+body div, #title {display: none;}
+body .picNav, body #imanhua，body #imanhua #comic, table, tbody, td, tr {display: block;}
+body .picNav {position: fixed; opacity:0; z-index: 1000;transition: all .3s;-webkit-transition: all .3s; text-align: center; width: 100%;background-color: rgba(255,255,255,0.85);}
+body .picNav:hover {opacity:1;}
+body .picNav:nth-child(odd) {top: 0px;}
+body .picNav:nth-child(even) {bottom: 0px;}
+body .picNav * {display: inline-block!important;}
+body .picNav a {overflow: hidden!important;}
+body .picNav span {line-height: 500px;}
+body #imanhua, body .imanhua {width:98%!important;height:98%!important; top: 1%; left: 1%;position: absolute;margin: 0 auto;padding: 0;text-align: center;}
+body #imanhua #comic {display: inline!important; margin: 0 auto;max-width:100%!important;max-height:100%!important;}
+html, body, table, tbody, td, tr, body .tbCenter {position: relative; margin: 0!important; padding: 0!important; width: 100%!important; height: 100%!important; border: 0px solid #fff!important;}

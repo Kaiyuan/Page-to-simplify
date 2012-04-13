@@ -1,0 +1,7 @@
+body *{display: none;}
+body .view_bt #showimage *,body .view_bt,body .view_bt #showimage,body .view_hd, body .view_hd *,body .juh, body .end_top, body #index_mian, body .end_mian {display: block;}
+body .juh {position: fixed; top:0; left:50%; margin-left: -100px; width:200px; text-align: center; width:100%;}
+body .view_hd {margin-bottom: 5px;}
+body .juh span, body .end_top * {display: inline;}
+.end_mian {margin-top: 60px;}
+body .view_bt #showimage img {max-width:98%!important;max-height:90%!important; margin: 0 auto; box-shadow: 0 3px 10px rgba(0,0,0,0.7);}
