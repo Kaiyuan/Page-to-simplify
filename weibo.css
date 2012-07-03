@@ -1,4 +1,4 @@
-*[ucardconf="type=1"], .footer_adv center, .footer_adv left, .footer_advbg, #pl_content_biztips, #trustPagelete_recom_interest, #pl_rightmod_ads35, #trustPagelete_zt_hottopic, #trustPagelet_recom_member, #trustPagelete_recom_allinone, #pl_rightmod_help, #pl_rightmod_noticeboard, .global_footer, .W_main_r {
+.footer_adv center, .footer_adv left, .footer_advbg, #pl_content_biztips, #trustPagelete_recom_interest, #pl_rightmod_ads35, #trustPagelete_zt_hottopic, #trustPagelet_recom_member, #trustPagelete_recom_allinone, #pl_rightmod_help, #pl_rightmod_noticeboard, .global_footer, .W_main_r {
 	display: none;
 }
 .B_index .W_main_c {width: 100%;}
