@@ -1,27 +1,43 @@
 { 
-   "name": "爱漫画 页面简化",
-   "version": "1.2",
-   "description": "爱漫画页面，自动调整漫画大小适应窗口。", 
-   "icons": { "48": "icon.png","128": "icon.png"},
+   "name": "页面简化",
+   "version": "1.3",
+   "description": "页面，自动调整漫画大小适应窗口。", 
+   "icons": { "16": "favicon.png" ,"48": "icon.png","128": "icon.png"},
+   "options_page": "options.html",
    "content_scripts": [
 	{
-	"matches": ["http://www.imanhua.com/*/*/list_*.html"],
+	"matches": ["http://*.imanhua.com/*/*/list_*.html"],
 	"css": ["style.css"], 
 	"run_at":"document_start"
 	},
 	{
-	"matches": ["http://www.imanhua.com/*"],
+	"matches": ["http://*.imanhua.com/*"],
 	"css": ["comic.css"], 
 	"run_at":"document_start"
 	},
 	{
-	"matches": ["http://www.dm5.com/*"],
+	"matches": ["http://*.dm5.com/*"],
 	"css": ["comic.css"], 
 	"run_at":"document_start"
 	},
 	{
-	"matches": ["http://www.dm5.com/m1*/"],
+	"matches": ["http://*.dm5.com/m1*/"],
 	"css": ["dm5.css"], 
+	"run_at":"document_start"
+	},
+	{
+	"matches": ["http://*.115.com/file/*"],
+	"css": ["115.css"], 
+	"run_at":"document_start"
+	},
+	{
+	"matches": ["http://dl.dbank.com/*"],
+	"css": ["dbank.css"], 
+	"run_at":"document_start"
+	},
+	{
+	"matches": ["http://weibo.com/*"],
+	"css": ["weibo.css"], 
 	"run_at":"document_start"
 	}
 	]

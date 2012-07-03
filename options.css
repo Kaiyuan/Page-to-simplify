@@ -1,0 +1,217 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Foro-LightRegular';
+    src: url('ForoLig-webfont.ttf') format('truetype'),
+		 url('ForoLig-webfont.svg#Foro-LightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*滚动条*/
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background: #f2f2f2;
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.2), 0 3px rgba(0,0,0,0.3);
+	border: 1px solid #fff;
+	border-width: 0px 1px 0px 1px;
+}
+::-webkit-scrollbar:hover {
+	background: #fff;
+}
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 2px rgba(0,0,0,0);
+	padding: 2px;
+}
+::-webkit-scrollbar-thumb {
+	box-shadow: inset 0 1px 2px rgba(255,255,255,0.8),0 1px 3px rgba(0,0,0,0.3);
+	background: #b5b5b5;
+	border-radius: 5px;
+	border: 1px solid #a5a5a5;
+}
+body {
+	-webkit-text-size-adjust: none;
+	color: #555;
+	font-size: 1em;
+	font-weight: 300;
+	font-family: 'Foro-LightRegular', "Helvetica Neue", Ubuntu, "Hiragino Sans GB", "WenQuanYi Micro Hei", Helvetica, "Microsoft JhengHei", Arial, sans-serif;
+	text-shadow: 0 0 1px rgba(0,0,0,0.1);
+	margin: 0px;
+	line-height: 1.6em;
+	padding: 0px;
+	background-color: #f7f7f7;
+	overflow-x: hidden;
+}
+::selection {
+    background:#C0E7FC;
+    color:#fff;
+}
+::-moz-selection {
+    background:#C0E7FC;
+    color:#fff;
+}
+::-webkit-selection {
+    background:#C0E7FC;
+    color:#fff;
+}
+input, textarea, select {
+	outline: none;
+}
+table, td, tr, form, textarea {
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+}
+ol, ul, li {
+	list-style: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+hr {
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	border-color: #eee;
+}
+body img {
+	border: 0px solid #eee;
+}
+a{
+	color: #444;
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+	text-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+	font-size: 4em;
+	color: #000;
+    font-weight: normal;
+    font-style: normal;
+}
+/*span*/
+.imgTR {
+	float: right;
+	padding: 0px 0px 10px 10px;
+}
+.imgTL {
+	float: left;
+	padding: 0px 10px 10px 0px;
+}
+.imgR {
+	padding: 10px 0px 10px 10px;
+}
+.imgL {
+	float: right;
+	padding: 10px 10px 10px 0px;
+}
+.img {
+	float: right;
+	padding: 10px 0px 10px 0px;
+}
+.yellow {
+	background-color: #FFFFCC;
+}
+.yellow::selection {
+	background-color: #DFF3E4;
+	color: #999;
+}
+.blue {
+	background-color: #E1F3FC;
+}
+.blue::selection {
+	background-color: #A9DFFC;
+	color: #999;
+}
+.red {
+	background-color: #FFE8FF;
+}
+.red::selection {
+	background-color: #EAE2FE;
+	color: #999;
+}
+.zh {
+	font-family: Times, "Times New Roman", ff-cursive-han, cursive, 標楷體, serif;
+}
+.pn {
+	border-bottom: solid 1px #000;
+}
+.leftbox {float:left; margin:0 20px 20px 0;box-shadow: 0 2px 5px rgba(0,0,0,0.5);}
+.rightbox {float:right; margin:0 0 20px 20px;box-shadow: 0 2px 5px rgba(0,0,0,0.5);}
+blockquote {
+	margin: 0px;
+	padding: 0px 0px 0px 60px;
+	background: url(images/blockquote.gif) repeat-y top left;
+	box-shadow: inset 0 1px 5px rgba(0,0,0,0.0469);
+}
+blockquote {
+	margin: 0.5em 0 0.5em 0;
+	padding: 0.1em 2em 0.1em 2em;
+	border-radius: 5px;
+	background: none #eee;
+}
+code {
+	background: #dee1e5;
+	padding: 0 0.3em;
+	border: 1px solid #D1D7E0;
+	border-radius: 5px;
+}
+.about-tag {
+	background: #dee1e5;
+	padding: 3px;
+	margin: 0 10px 0 0;
+	border: 1px solid #D1D7E0;
+	border-radius: 5px;
+	font-size: 12px;
+}
+pre {
+	box-shadow: inset 0 1px 8px rgba(0,0,0,0.5);
+	text-shadow: rgba(0,0,0,0.2) 0 1px 1px;
+	background: #658fd8 url(images/bluck_img.gif) 15px 5px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.333;
+	white-space: pre;
+	padding: 5px 20px 5px 20px;
+	border-radius: 5px;
+	margin: 1.333em 0 1.333em 0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+} 
+.Box {
+	width: 300px;
+	padding: 10px 40px;
+	background: #fff url(icon.png) no-repeat 298px 10px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+	margin: -221px auto 0 -171px;
+	left: 50%;
+	top: 50%;
+	position: fixed;
+}
+ul {
+	margin: 0 0 30px 0;
+}
+ul li {
+	padding: 2px 10px;
+	height: 28px;
+	line-height: 28px;
+	background: #f2f2f2;
+	background-image: url(no-off.gif);
+	background-repeat: no-repeat;
+	background-position: right 0;
+	margin: 0 0 5px 0;
+	border-radius: 5px;
+	box-shadow: inset 0 1px 7px rgba(0,0,0,0.027);
+	text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+ul li:hover {
+	background-color: #C0E7FC;
+	color: #000;
+}
+ul .no {background-position: right -32px;}
+body, body * {
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+}
