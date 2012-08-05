@@ -2,6 +2,7 @@
    "name": "页面简化",
    "version": "1.3",
    "description": "页面，自动调整漫画大小适应窗口。", 
+   "manifest_version":2,
    "icons": { "16": "favicon.png" ,"48": "icon.png","128": "icon.png"},
    "options_page": "options.html",
    "content_scripts": [
