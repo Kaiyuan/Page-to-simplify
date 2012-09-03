@@ -40,6 +40,11 @@
 	"matches": ["http://*.weibo.com/*"],
 	"css": ["weibo.css"], 
 	"run_at":"document_start"
+	},
+	{
+	"matches": ["http://*.deviantart.com/*"],
+	"css": ["deviantart.css"], 
+	"run_at":"document_start"
 	}
 	]
 }
