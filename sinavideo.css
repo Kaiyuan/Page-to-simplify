@@ -1,0 +1,9 @@
+#mpRightBox {
+	display: none;
+}
+.mpLeftBox, body #myflashBox *, #myflashBox *, #myflashBox, #myflashBox, .player, .playerBox {
+	width: 100% !important;
+}
+body #myflashBox *, #myflashBox * {
+ 	height: 590px;
+}

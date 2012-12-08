@@ -42,6 +42,16 @@
 	"run_at":"document_start"
 	},
 	{
+	"matches": ["http://video.sina.com.cn/v/*"],
+	"css": ["sinavideo.css"], 
+	"run_at":"document_start"
+	},
+	{
+	"matches": ["http://video.sina.com.cn/p/*"],
+	"css": ["sinavideo.css"], 
+	"run_at":"document_start"
+	},
+	{
 	"matches": ["http://*.deviantart.com/*"],
 	"css": ["deviantart.css"], 
 	"run_at":"document_start"
