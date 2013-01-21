@@ -7,4 +7,4 @@ body .W_main_narrow_bg {box-shadow: 0 3px 12px rgba(0,0,0,0.3); background: none
 .W_gotop {box-shadow: 0 3px 12px rgba(0,0,0,0.3);}*/
 div#Box_right, #pl_content_biztips {display:none;}
 div#Box_center {width: 830px;}
-.W_func {display: none}
+.W_func,div[feedtype="ad"] {display: none}
