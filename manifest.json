@@ -7,11 +7,6 @@
    "options_page": "options.html",
    "content_scripts": [
 	{
-	"matches": ["http://*.imanhua.com/*/*/list_*.html"],
-	"css": ["style.css"], 
-	"run_at":"document_start"
-	},
-	{
 	"matches": ["http://*.imanhua.com/*"],
 	"css": ["comic.css"], 
 	"run_at":"document_start"
@@ -56,5 +51,8 @@
 	"css": ["deviantart.css"], 
 	"run_at":"document_start"
 	}
-	]
+	],
+	"permissions": [
+   	"storage"
+ 	]
 }
