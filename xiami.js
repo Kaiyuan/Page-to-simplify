@@ -37,6 +37,6 @@ function xiami (songId, callback) {
         });
     });
 }
-var audio_play = document.getElementsByClassName('player');
-var audio_text = '<audio src="'+req+'"></audio>'
-audio_play.onclick = function(){audip_play.innerHTML(audio_text)};
+$('.cd2play a').click(
+    $(this).css("color"，"#4396cb")
+);

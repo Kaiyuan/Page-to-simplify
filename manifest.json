@@ -5,10 +5,43 @@
    "manifest_version":2,
    "icons": { "16": "favicon.png" ,"48": "icon.png","128": "icon.png"},
    "options_page": "options.html",
+   "browser_action": {
+    "default_icon": {
+         "19":"Translate_16.png",
+         "38":"Translate_32.png"
+    },
+    "default_title": "Google Translate",      // optional; shown in tooltip 
+    "default_popup": "translate.html"        // optional 
+	},
    "content_scripts": [
 	{
+	"matches": ["http://*.xiami.com/*"],
+	"js": ["xiami.js"], 
+	"run_at":"document_start"
+	},
+	{
 	"matches": ["http://*.imanhua.com/*"],
-	"css": ["comic.css"], 
+	"css": ["killad.css"], 
+	"run_at":"document_start"
+	},
+	{
+	"matches": ["http://*.imanhua.com/*/*/*.html"],
+	"css": ["imanhua.css"], 
+	"run_at":"document_start"
+	},
+	{
+	"matches": ["http://*.manhuadao.com/book/*/*"],
+	"css": ["manhuadao.css"], 
+	"run_at":"document_start"
+	},
+	{
+	"matches": ["http://lofi.e-hentai.org/*"],
+	"css": ["e-hentai.css"], 
+	"run_at":"document_start"
+	},
+	{
+	"matches": ["http://lofi.e-hentai.org/s/*/*"],
+	"css": ["l_e-hentai.css"], 
 	"run_at":"document_start"
 	},
 	{
@@ -37,13 +70,8 @@
 	"run_at":"document_start"
 	},
 	{
-	"matches": ["http://video.sina.com.cn/v/*"],
-	"css": ["sinavideo.css"], 
-	"run_at":"document_start"
-	},
-	{
-	"matches": ["http://video.sina.com.cn/p/*"],
-	"css": ["sinavideo.css"], 
+	"matches": ["http://g.e-hentai.org/s/*"],
+	"css": ["g_e_hentai_org.css"], 
 	"run_at":"document_start"
 	},
 	{

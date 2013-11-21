@@ -1,0 +1,3 @@
+body iframe, #topmon, .fr {
+	display: none !important;
+}

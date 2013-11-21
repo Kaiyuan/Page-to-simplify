@@ -1,3 +1,3 @@
-.blt-ad, .ad-blocking-makes-fella-confused, #sidebar-you-know-what iframe, .gr-adcast, #overhead-you-know-what, .sleekadbubble, .partial-ad, .comment-ad, .ad, #ads, .textbanner-ad, #google_ads_frame1, div[class^="ad"] iframe {
+.blt-ad, .ad-blocking-makes-fella-confused, #sidebar-you-know-what iframe, .gr-adcast, #overhead-you-know-what, .sleekadbubble, .partial-ad, .comment-ad, .ad, #ads, .textbanner-ad, #google_ads_frame1, div[class^="ad"] iframe, div[class^="dp-ad-chrome"] {
 	display: none !important;
 }

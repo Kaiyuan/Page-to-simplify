@@ -1,0 +1,15 @@
+html, body {
+	background: #fff;
+	margin: 0;
+	padding: 0;
+}
+body div#im,#ig {
+	width: 100%;
+	text-align: center;
+}
+.ig {
+	width: 202px;
+	display: inline-block;
+	overflow: hidden;
+	margin: 1em;
+}
